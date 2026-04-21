@@ -1,0 +1,71 @@
+Drolosoft Proprietary Software License
+
+Copyright (c) 2026 Drolosoft. All Rights Reserved.
+
+This repository and its contents are the property of Drolosoft.
+
+1. SOFTWARE LICENSE
+
+The software application(s) distributed through this repository ("Software")
+are proprietary and closed-source. The source code is not included in this
+repository and is not available for distribution.
+
+You are granted a limited, non-exclusive, non-transferable, revocable license
+to download and use the Software for personal or internal business purposes,
+subject to the terms of this license and any applicable subscription or
+purchase terms provided at https://drolosoft.com.
+
+You may NOT:
+  - Redistribute, sublicense, sell, or resell the Software or its binaries
+  - Reverse engineer, decompile, or disassemble the Software
+  - Remove, alter, or obscure any proprietary notices in the Software
+  - Host or mirror the Software binaries on any third-party service
+  - Use the Software to create competing products or services
+
+2. DOCUMENTATION LICENSE
+
+The documentation in this repository, including but not limited to README
+files, screenshots, and contents of the docs/ directory, is licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt the documentation for any purpose, including
+commercial, provided you give appropriate credit to Drolosoft, provide a
+link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+3. GITHUB RELEASES
+
+Binary files (DMG, ZIP, or other installers) published via GitHub Releases
+are provided for direct download by end users only. Redistribution of these
+binaries through any channel other than this official GitHub repository or
+https://drolosoft.com is strictly prohibited.
+
+4. FREEMIUM MODEL
+
+The Software may include both free and paid features. Access to paid features
+requires a valid license purchased through Drolosoft's official channels.
+Circumventing license validation or feature restrictions is prohibited.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+DROLOSOFT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+6. TERMINATION
+
+This license is effective until terminated. Drolosoft may terminate this
+license at any time if you fail to comply with any term of this agreement.
+Upon termination, you must destroy all copies of the Software in your
+possession.
+
+7. GOVERNING LAW
+
+This license shall be governed by and construed in accordance with applicable
+copyright and intellectual property laws.
+
+For questions about licensing, contact: hello@drolosoft.com
