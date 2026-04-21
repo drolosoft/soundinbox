@@ -16,8 +16,7 @@
 
 You check email dozens of times a day looking for the one message that actually matters. Every interruption to glance at your inbox — even for two seconds — breaks your focus and steals time you don't get back. **SoundInbox** removes the need to check. It lives silently in the macOS menu bar and fires the exact sound you defined for the exact event you care about. Payment received? Cash register. Urgent client? Alarm. Everything else? Complete silence.
 
-<!-- TODO: Replace with actual screenshot when available -->
-<!-- <p align="center"><img src="assets/screenshot-main.png" alt="SoundInbox in the menu bar" width="700"></p> -->
+<p align="center"><img src="assets/screenshot-main.png" alt="SoundInbox menu bar popover showing payment and urgent alerts" width="400"></p>
 
 ---
 
@@ -53,6 +52,18 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 | 📊 | **Match History** | A scrollable timeline of every alert fired, with stats on most active formulas and busiest hours of the day. |
 | 🔇 | **Silent by Default** | Unmatched emails produce no sound. You opt in to noise, not out of it. Only what you define as important makes a sound. |
 | 📌 | **Invisible Until Needed** | No dock icon. No main window. Lives in the status bar doing its job — you forget it's there until the right sound plays. |
+
+### ⚙️ Custom Rules with Regex
+
+Build powerful detection rules with regex patterns, drag to reorder priority, and assign any sound to each rule.
+
+<p align="center"><img src="assets/screenshot-rules.png" alt="SoundInbox custom rules with regex patterns" width="650"></p>
+
+### 📬 Group by Provider
+
+See all your alerts organized by email provider — instantly spot which domains are sending the most.
+
+<p align="center"><img src="assets/screenshot-provider.png" alt="SoundInbox alerts grouped by provider" width="400"></p>
 
 ---
 
