@@ -10,6 +10,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Proprietary-blue" alt="License"></a>
   <a href="https://github.com/drolosoft/homebrew-tap"><img src="https://img.shields.io/badge/Homebrew-tap-orange.svg" alt="Homebrew"></a>
   <a href="https://github.com/drolosoft/soundinbox/releases"><img src="https://img.shields.io/badge/Status-Pre--release-yellow" alt="Status"></a>
+  <a href="https://drolosoft.com/soundinbox.html"><img src="https://img.shields.io/badge/Website-drolosoft.com-10B981" alt="Website"></a>
 </p>
 
 > **Stop checking email. Start hearing what matters.**
@@ -18,15 +19,21 @@ You check email dozens of times a day looking for the one message that actually 
 
 <p align="center"><img src="assets/screenshot-main.png" alt="SoundInbox menu bar popover showing payment and urgent alerts" width="400"></p>
 
+<p align="center">
+  <img src="assets/demo.gif" alt="SoundInbox demo — email arrives, formula matches, sound plays" width="700">
+</p>
+
 ---
 
 ## ⚡ Quick Start
 
-### Install with Homebrew
+### Install with Homebrew (Coming Soon)
 
 ```bash
 brew install --cask drolosoft/tap/soundinbox
 ```
+
+> The Homebrew cask is not published yet. Use Direct Download below until then.
 
 ### Direct Download
 
@@ -52,6 +59,8 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 | 📊 | **Match History** | A scrollable timeline of every alert fired, with stats on most active formulas and busiest hours of the day. |
 | 🔇 | **Silent by Default** | Unmatched emails produce no sound. You opt in to noise, not out of it. Only what you define as important makes a sound. |
 | 📌 | **Invisible Until Needed** | No dock icon. No main window. Lives in the status bar doing its job — you forget it's there until the right sound plays. |
+
+<p align="center"><img src="assets/screenshot-formulas.png" alt="SoundInbox formula gallery with 10 pre-built detection formulas" width="500"></p>
 
 ### ⚙️ Custom Rules with Regex
 
@@ -123,6 +132,16 @@ Your inbox doesn't need another badge count. It needs a voice.
 | 📊 | No idea how often you check | **Match history** — see what actually matters |
 | ⏱️ | Context switch dozens of times/day | **Zero interruptions** — the sound IS the check |
 
+<p align="center"><img src="assets/screenshot-statistics.png" alt="SoundInbox match history and statistics dashboard" width="500"></p>
+
+---
+
+## 🔒 Your Data Stays Local
+
+SoundInbox polls your inbox via the official Gmail API and evaluates rules on your Mac. No email content is stored, transmitted, or processed on any server. OAuth tokens live in the macOS Keychain. Match history is local and clearable anytime.
+
+→ Full privacy policy: [drolosoft.com/soundinbox/privacy](https://drolosoft.com/soundinbox/privacy)
+
 ---
 
 ## 💰 Free vs Pro
@@ -139,11 +158,15 @@ Your inbox doesn't need another badge count. It needs a voice.
 
 > **No subscription. No recurring charges. You own it.**
 
+See [full pricing details](https://drolosoft.com/soundinbox/pricing) with FAQ.
+
+<p align="center"><img src="assets/screenshot-accounts.png" alt="SoundInbox multi-account management" width="500"></p>
+
 ---
 
 ## 🛠️ Built With
 
-Fully native. No Electron, no web wrappers, no cross-platform frameworks. 888 KB.
+Fully native. No Electron, no web wrappers, no cross-platform frameworks. ~26 MB universal binary.
 
 - **Swift 6.3** — Strict concurrency, modern async/await
 - **SwiftUI + AppKit** — NSStatusItem, NSPopover, native menus
@@ -189,6 +212,19 @@ SoundInbox needs an internet connection to poll email. The license check works o
 <br>
 Currently supports Gmail and Google Workspace via the Gmail API. Outlook / Microsoft 365 and generic IMAP are on the roadmap.
 </details>
+
+---
+
+## 📚 Resources
+
+| | Link |
+|---|---|
+| 🌐 | [Product Page](https://drolosoft.com/soundinbox.html) |
+| 💰 | [Pricing & FAQ](https://drolosoft.com/soundinbox/pricing) |
+| 📥 | [Download & Install](https://drolosoft.com/soundinbox/download) |
+| 🔒 | [Privacy Policy](https://drolosoft.com/soundinbox/privacy) |
+| 📋 | [Changelog](https://drolosoft.com/soundinbox/changelog) |
+| 🐛 | [Report Issues](https://github.com/drolosoft/soundinbox/issues) |
 
 ---
 
