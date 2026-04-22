@@ -30,7 +30,7 @@ brew install --cask drolosoft/tap/soundinbox
 
 ### Direct Download
 
-Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinbox/releases) or from [drolosoft.com/soundinbox](https://drolosoft.com/soundinbox.html). Under 1 MB — no Electron, no dependencies.
+Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinbox/releases) or from [drolosoft.com/soundinbox](https://drolosoft.com/soundinbox.html). ~26 MB universal binary — no Electron, no dependencies.
 
 ### Try It
 
