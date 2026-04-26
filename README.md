@@ -42,12 +42,14 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 ### Try It
 
 ```
-# 1  Install and connect your Gmail or Outlook account
+# 1  Install and connect your Gmail*, Outlook, or IMAP account
 # 2  Activate the formulas you care about (or create your own)
 # 3  Go back to your work — the right sound plays when the right email arrives
 ```
 
 ---
+
+> **\*Gmail note:** Gmail OAuth is pending Google verification. During sign-in you'll see an "unverified app" screen — click **Advanced → Go to SoundInbox** to proceed safely. This is cosmetic and will disappear once Google completes the review. Outlook and IMAP work without any warnings.
 
 ## 🔍 Features
 
@@ -59,6 +61,8 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 | 📊 | **Match History** | A scrollable timeline of every alert fired, with stats on most active formulas and busiest hours of the day. |
 | 🔇 | **Silent by Default** | Unmatched emails produce no sound. You opt in to noise, not out of it. Only what you define as important makes a sound. |
 | 📌 | **Invisible Until Needed** | No dock icon. No main window. Lives in the status bar doing its job — you forget it's there until the right sound plays. |
+| 🔄 | **Auto-Recovery** | Transient failures (timeouts, server errors) are retried automatically. If your provider revokes a token, SoundInbox notifies you and shows a one-tap Reconnect button. |
+| 📬 | **Gmail, Outlook & IMAP** | Connect Gmail (OAuth2*), Outlook/Hotmail (OAuth2), or any IMAP server. Multiple accounts supported on Pro. |
 
 <p align="center"><img src="assets/screenshot-formulas.png" alt="SoundInbox formula gallery with 10 pre-built detection formulas" width="500"></p>
 
