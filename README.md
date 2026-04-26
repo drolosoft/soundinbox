@@ -78,6 +78,14 @@ See all your alerts organized by email provider — instantly spot which domains
 
 <p align="center"><img src="assets/screenshot-provider.png" alt="SoundInbox alerts grouped by provider" width="400"></p>
 
+### 🔄 Smart Reconnection
+
+If your email provider expires a session (password change, security review, token rotation), SoundInbox detects it instantly — no cryptic error messages. A one-tap **Reconnect** button appears right in the popover. Click it, sign in, done.
+
+<p align="center"><img src="assets/screenshot-reconnect.png" alt="SoundInbox one-tap reconnect banner for expired OAuth sessions" width="400"></p>
+
+> SoundInbox automatically retries transient failures (timeouts, server errors) before showing any error. The Reconnect button only appears when your provider permanently revoked the session — something only you can fix by signing in again.
+
 ---
 
 ## 🧪 10 Pre-Built Formulas
