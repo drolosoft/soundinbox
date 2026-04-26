@@ -138,7 +138,7 @@ Your inbox doesn't need another badge count. It needs a voice.
 
 ## 🔒 Your Data Stays Local
 
-SoundInbox polls your inbox via the official Gmail API and evaluates rules on your Mac. No email content is stored, transmitted, or processed on any server. OAuth tokens live in the macOS Keychain. Match history is local and clearable anytime.
+SoundInbox polls your inbox via IMAP (Gmail, Outlook, and generic IMAP servers) and evaluates rules locally on your Mac. No email content is stored, transmitted, or processed on any server. OAuth tokens and credentials live in the macOS Keychain. Match history is local and clearable anytime.
 
 → Full privacy policy: [drolosoft.com/soundinbox/privacy](https://drolosoft.com/soundinbox/privacy)
 
@@ -210,7 +210,7 @@ SoundInbox needs an internet connection to poll email. The license check works o
 <details>
 <summary><strong>Does it support Outlook or IMAP?</strong></summary>
 <br>
-Currently supports Gmail and Google Workspace via the Gmail API. Outlook / Microsoft 365 and generic IMAP are on the roadmap.
+Yes! SoundInbox supports <strong>Gmail</strong> (OAuth2), <strong>Outlook / Microsoft 365 / Hotmail</strong> (OAuth2), and <strong>generic IMAP</strong> (DreamHost, Fastmail, iCloud, Zoho, Yahoo, AOL, and any custom IMAP server). All three providers are fully integrated with automatic token refresh and one-tap reconnection if your provider expires a session.
 </details>
 
 ---
