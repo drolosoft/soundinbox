@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="SoundInbox" width="128">
+  <img src="assets/hero.png" alt="SoundInbox" width="600">
 </p>
 
 <h1 align="center">SoundInbox</h1>
