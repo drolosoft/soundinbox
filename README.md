@@ -20,7 +20,7 @@ You check email dozens of times a day looking for the one message that actually 
 <p align="center"><img src="assets/screenshot-main.png" alt="SoundInbox menu bar popover showing payment and urgent alerts" width="400"></p>
 
 <p align="center">
-  <img src="assets/demo.gif" alt="SoundInbox demo — email arrives, formula matches, sound plays" width="600">
+  <video src="https://github.com/drolosoft/soundinbox/releases/download/v1.1.2/sound-inbox-demo.mp4" width="600" autoplay loop muted playsinline></video>
 </p>
 
 ---
