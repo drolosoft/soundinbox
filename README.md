@@ -20,11 +20,7 @@ You check email dozens of times a day looking for the one message that actually 
 <p align="center"><img src="assets/screenshot-main.png" alt="SoundInbox menu bar popover showing payment and urgent alerts" width="400"></p>
 
 <p align="center">
-  <a href="https://youtu.be/CpR0oUoqNOU">
-    <img src="https://img.youtube.com/vi/CpR0oUoqNOU/maxresdefault.jpg" alt="Watch SoundInbox demo on YouTube" width="600">
-  </a>
-  <br>
-  <em>▶ Watch demo on YouTube</em>
+  <img src="assets/demo.gif" alt="SoundInbox demo — email arrives, formula matches, sound plays" width="600">
 </p>
 
 ---
