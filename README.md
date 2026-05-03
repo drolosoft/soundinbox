@@ -9,7 +9,7 @@
   <a href="https://drolosoft.com/soundinbox.html"><img src="https://img.shields.io/badge/Arch-Universal-000?logo=apple&logoColor=white" alt="Universal Binary"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Proprietary-blue" alt="License"></a>
   <a href="https://github.com/drolosoft/homebrew-tap"><img src="https://img.shields.io/badge/Homebrew-tap-orange.svg" alt="Homebrew"></a>
-  <a href="https://github.com/drolosoft/soundinbox/releases"><img src="https://img.shields.io/badge/Status-Pre--release-yellow" alt="Status"></a>
+  <a href="https://github.com/drolosoft/soundinbox/releases"><img src="https://img.shields.io/badge/Status-Available-10B981" alt="Status"></a>
   <a href="https://drolosoft.com/soundinbox.html"><img src="https://img.shields.io/badge/Website-drolosoft.com-10B981" alt="Website"></a>
 </p>
 
@@ -49,7 +49,7 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 
 ---
 
-> **\*Gmail note:** Gmail OAuth is pending Google verification. During sign-in you'll see an "unverified app" screen — click **Advanced → Go to SoundInbox** to proceed safely. This is cosmetic and will disappear once Google completes the review. Outlook and IMAP work without any warnings.
+> **\*Gmail note:** Gmail sign-in shows a one-time "unverified app" screen while Google completes our security certification (CASA Tier 2 — in progress). Click **Advanced → Go to SoundInbox** to proceed safely. Your data stays local and secure. This notice will disappear once certification is complete. Outlook and IMAP work without any warnings.
 
 ## 🔍 Features
 
