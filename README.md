@@ -49,7 +49,7 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 
 ---
 
-> **\*Gmail note:** Gmail sign-in shows a one-time "unverified app" screen while Google completes our security certification (CASA Tier 2 — in progress). Click **Advanced → Go to SoundInbox** to proceed safely. Your data stays local and secure. This notice will disappear once certification is complete. Outlook and IMAP work without any warnings.
+> **⚠️ Gmail:** Click **Advanced → Go to SoundInbox** on first sign-in. Google verification in progress — the warning is cosmetic and will disappear soon.
 
 ## 🔍 Features
 
@@ -64,7 +64,6 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 | 🔄 | **Auto-Recovery** | Transient failures (timeouts, server errors) are retried automatically. If your provider revokes a token, SoundInbox notifies you and shows a one-tap Reconnect button. |
 | 📬 | **Gmail, Outlook & IMAP** | Connect Gmail (OAuth2*), Outlook/Hotmail (OAuth2), or any IMAP server. Multiple accounts supported on Pro. |
 
-<p align="center"><img src="assets/screenshot-formulas.png" alt="SoundInbox formula gallery with 10 pre-built detection formulas" width="500"></p>
 
 ### ⚙️ Custom Rules with Regex
 
@@ -144,7 +143,6 @@ Your inbox doesn't need another badge count. It needs a voice.
 | 📊 | No idea how often you check | **Match history** — see what actually matters |
 | ⏱️ | Context switch dozens of times/day | **Zero interruptions** — the sound IS the check |
 
-<p align="center"><img src="assets/screenshot-statistics.png" alt="SoundInbox match history and statistics dashboard" width="500"></p>
 
 ---
 
@@ -172,7 +170,6 @@ SoundInbox polls your inbox via IMAP (Gmail, Outlook, and generic IMAP servers) 
 
 See [full pricing details](https://drolosoft.com/soundinbox/pricing) with FAQ.
 
-<p align="center"><img src="assets/screenshot-accounts.png" alt="SoundInbox multi-account management" width="500"></p>
 
 ---
 
