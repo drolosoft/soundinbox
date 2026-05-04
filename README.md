@@ -85,6 +85,16 @@ If your email provider expires a session (password change, security review, toke
 
 > SoundInbox automatically retries transient failures (timeouts, server errors) before showing any error. The Reconnect button only appears when your provider permanently revoked the session — something only you can fix by signing in again.
 
+### 🔍 Match Highlighting & Body Snippets
+
+When an alert fires, SoundInbox shows you exactly **why** it matched. Matched keywords are highlighted with a pastel marker in the subject or body — only in the field that triggered the rule. For body matches, a ~120-character snippet around the keyword is extracted and displayed, so you see the context without reading the full email.
+
+<p align="center"><img src="assets/screenshot-match-highlighting.png" alt="SoundInbox match highlighting with body snippet showing keyword context" width="400"></p>
+
+- **Field-specific highlighting** — body-only rules highlight only the snippet, not the subject
+- **Configurable marker color** — 6 pastel presets (yellow, green, pink, blue, orange, purple) + custom picker
+- **Privacy-first** — only a short snippet is stored, never the full email body. All stored data (sender, subject, snippet) is encrypted at rest with AES-256-GCM
+
 ---
 
 ## 🧪 10 Pre-Built Formulas
