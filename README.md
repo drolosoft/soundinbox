@@ -11,6 +11,11 @@
   <a href="https://github.com/drolosoft/homebrew-tap"><img src="https://img.shields.io/badge/Homebrew-tap-orange.svg" alt="Homebrew"></a>
   <a href="https://github.com/drolosoft/soundinbox/releases"><img src="https://img.shields.io/badge/Status-Available-10B981" alt="Status"></a>
   <a href="https://drolosoft.com/soundinbox.html"><img src="https://img.shields.io/badge/Website-drolosoft.com-10B981" alt="Website"></a>
+  <br>
+  <img src="https://img.shields.io/badge/CASA_Tier_2-Verified-0078D4?logo=google&logoColor=white" alt="CASA Tier 2">
+  <img src="https://img.shields.io/badge/Apple-Notarized-000?logo=apple&logoColor=white" alt="Apple Notarized">
+  <img src="https://img.shields.io/badge/Encryption-AES--256--GCM-6C3483" alt="AES-256-GCM">
+  <img src="https://img.shields.io/badge/OAuth-Verified-4285F4?logo=google&logoColor=white" alt="Google OAuth Verified">
 </p>
 
 > **Stop checking email. Start hearing what matters.**
@@ -27,29 +32,23 @@ You check email dozens of times a day looking for the one message that actually 
 
 ## ⚡ Quick Start
 
-### Install with Homebrew (Coming Soon)
+### Install with Homebrew
 
 ```bash
 brew install --cask drolosoft/tap/soundinbox
 ```
 
-> The Homebrew cask is not published yet. Use Direct Download below until then.
-
 ### Direct Download
 
-Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinbox/releases) or from [drolosoft.com/soundinbox](https://drolosoft.com/soundinbox.html). ~26 MB universal binary — no Electron, no dependencies.
+Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinbox/releases) or from [drolosoft.com/soundinbox](https://drolosoft.com/soundinbox.html). ~28 MB universal binary — no Electron, no dependencies. Apple notarized.
 
 ### Try It
 
 ```
-# 1  Install and connect your Gmail*, Outlook, or IMAP account
+# 1  Install and connect your Gmail, Outlook, or IMAP account
 # 2  Activate the formulas you care about (or create your own)
 # 3  Go back to your work — the right sound plays when the right email arrives
 ```
-
----
-
-> **⚠️ Gmail:** Click **Advanced → Go to SoundInbox** on first sign-in. Google verification in progress — the warning is cosmetic and will disappear soon.
 
 ## 🔍 Features
 
@@ -62,7 +61,7 @@ Download the `.dmg` from [GitHub Releases](https://github.com/drolosoft/soundinb
 | 🔇 | **Silent by Default** | Unmatched emails produce no sound. You opt in to noise, not out of it. Only what you define as important makes a sound. |
 | 📌 | **Invisible Until Needed** | No dock icon. No main window. Lives in the status bar doing its job — you forget it's there until the right sound plays. |
 | 🔄 | **Auto-Recovery** | Transient failures (timeouts, server errors) are retried automatically. If your provider revokes a token, SoundInbox notifies you and shows a one-tap Reconnect button. |
-| 📬 | **Gmail, Outlook & IMAP** | Connect Gmail (OAuth2*), Outlook/Hotmail (OAuth2), or any IMAP server. Multiple accounts supported on Pro. |
+| 📬 | **Gmail, Outlook & IMAP** | Connect Gmail (OAuth2), Outlook/Hotmail (OAuth2), or any IMAP server. Multiple accounts supported on Pro. |
 
 
 ### ⚙️ Custom Rules with Regex
@@ -156,9 +155,18 @@ Your inbox doesn't need another badge count. It needs a voice.
 
 ---
 
-## 🔒 Your Data Stays Local
+## 🔒 Security & Privacy
 
-SoundInbox polls your inbox via IMAP (Gmail, Outlook, and generic IMAP servers) and evaluates rules locally on your Mac. No email content is stored, transmitted, or processed on any server. OAuth tokens and credentials live in the macOS Keychain. Match history is local and clearable anytime.
+<table>
+<tr><td>🛡️</td><td><strong>CASA Tier 2 Certified</strong></td><td>Passed App Defense Alliance security assessment (TAC Security) — 0 vulnerabilities, score 9.7/10</td></tr>
+<tr><td>🔐</td><td><strong>AES-256-GCM Encryption</strong></td><td>All stored user data (match history, account metadata, body snippets) encrypted at rest with Keychain-managed keys</td></tr>
+<tr><td>🍎</td><td><strong>Apple Notarized</strong></td><td>Code-signed with Developer ID, hardened runtime, Apple notarization verified</td></tr>
+<tr><td>🔑</td><td><strong>Google OAuth Verified</strong></td><td><code>gmail.readonly</code> — minimum-privilege scope, no send/delete/modify access</td></tr>
+<tr><td>🏠</td><td><strong>100% Local Processing</strong></td><td>Email content evaluated on your Mac and discarded. No server, no cloud, no telemetry</td></tr>
+<tr><td>🔗</td><td><strong>macOS Keychain</strong></td><td>OAuth tokens and credentials stored in hardware-backed encrypted Keychain — never on disk</td></tr>
+</table>
+
+SoundInbox polls Gmail via the REST API (`gmail.readonly` scope), Outlook via IMAP (OAuth2), and custom accounts via IMAP. Rules are evaluated locally — no email content is sent to any server. Match history stores only sender, subject, and a short keyword snippet, all encrypted at rest.
 
 → Full privacy policy: [drolosoft.com/soundinbox/privacy](https://drolosoft.com/soundinbox/privacy)
 
@@ -185,12 +193,13 @@ See [full pricing details](https://drolosoft.com/soundinbox/pricing) with FAQ.
 
 ## 🛠️ Built With
 
-Fully native. No Electron, no web wrappers, no cross-platform frameworks. ~26 MB universal binary.
+Fully native. No Electron, no web wrappers, no cross-platform frameworks. ~28 MB universal binary.
 
-- **Swift 6.3** — Strict concurrency, modern async/await
+- **Swift 6.0** — Strict concurrency, modern async/await
 - **SwiftUI + AppKit** — NSStatusItem, NSPopover, native menus
 - **AVAudioPlayer** — System audio with macOS sound fallback
-- **Sparkle** — Automatic updates
+- **CryptoKit** — AES-256-GCM encryption at rest
+- **Sparkle** — Automatic updates with EdDSA signature verification
 
 ---
 
